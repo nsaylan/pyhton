@@ -1,12 +1,6 @@
 a = input("Enter your name:")
-
 a = a.title()
-
 if a == "Necip":
-
     print("Hello, Necip! The password is : W@12",)
-
 else:
-
     print("Hello, misname! See you later.")
-
