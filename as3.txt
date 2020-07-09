@@ -1,0 +1,16 @@
+sayi = input("Pozitif bir sayı giriniz:")
+while sayi.isnumeric()==False:
+    print("It is an invalid entry. Don't use non-numeric, float, or negative values!")
+    sayi = input("Pozitif bir sayı giriniz:")
+    
+toplam=0
+
+for x in sayi:
+    
+    rakam = int(x)**len(sayi)
+    toplam += rakam 
+    
+if(int(sayi) == toplam):
+    print(sayi,"is an Armstrong number.")
+else:
+    print(sayi,"is not an Armstong number.")
