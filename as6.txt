@@ -1,0 +1,9 @@
+number = int(input("Enter any number: "))
+list=[]
+for i in range(2, number+1):
+    status = True
+    for j in range(2,i):
+        if (i % j) == 0:status = False
+    if status:
+        list.append(i) 
+print(list)
