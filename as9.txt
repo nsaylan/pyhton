@@ -1,3 +1,4 @@
+str1=input("Enter a sentence:")
 def char_frequency(str1):
     dict = {}
     for n in str1:
@@ -7,4 +8,4 @@ def char_frequency(str1):
         else:
             dict[n] = 1
     return dict
-print(char_frequency('clarusway is a finest course'))
+print(char_frequency(str1))
